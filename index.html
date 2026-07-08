@@ -110,31 +110,33 @@
             background-color: var(--card-bg);
             border: 1px solid #222;
             border-radius: 12px;
-            padding: 35px;
+            padding: 40px;
             margin-top: 20px;
+            text-align: center;
         }
 
         .price-row {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
-            padding: 16px 0;
-            border-bottom: 1px solid #222;
-        }
-
-        .price-row:last-child {
-            border-bottom: none;
+            gap: 15px;
+            padding: 20px 0;
         }
 
         .rank-name {
-            font-weight: 600;
-            font-size: 1.1rem;
+            font-weight: 800;
+            font-size: 1.8rem;
+            letter-spacing: 1px;
+            background: linear-gradient(90deg, #CD7F32, #FFD700, #00E5FF, #9D00FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         .price-tag {
             color: var(--accent-color);
             font-weight: bold;
-            font-size: 1.1rem;
+            font-size: 1.4rem;
         }
 
         /* CTA Section */
@@ -207,37 +209,21 @@
         </div>
 
         <!-- Pricing Tiers -->
-        <div class="section-title">Warzone Ranked Divisions</div>
+        <div class="section-title">Warzone Ranked Service Rates</div>
         
         <div class="pricing-box">
-            <p style="color: var(--muted-text); margin-bottom: 20px; font-size: 0.95rem; text-align: center;">
-                <em>All rates are custom-tailored and fully negotiable. Open a ticket to lock in a direct quote with the boss.</em>
+            <p style="color: var(--muted-text); margin-bottom: 10px; font-size: 1rem;">
+                <em>We provide completely flexible coverage across the entire competitive spectrum.</em>
             </p>
             
             <div class="price-row">
-                <span class="rank-name" style="color: #CD7F32;">Bronze Divisions</span>
-                <span class="price-tag">Open Ticket for Quote</span>
+                <span class="rank-name">BRONZE TO IRIDESCENT</span>
+                <span class="price-tag">All Rates Fully Decided & Quoted Privately Via Tickets</span>
             </div>
-            <div class="price-row">
-                <span class="rank-name" style="color: #C0C0C0;">Silver Divisions</span>
-                <span class="price-tag">Open Ticket for Quote</span>
-            </div>
-            <div class="price-row">
-                <span class="rank-name" style="color: #FFD700;">Gold Divisions</span>
-                <span class="price-tag">Open Ticket for Quote</span>
-            </div>
-            <div class="price-row">
-                <span class="rank-name" style="color: #00E5FF;">Platinum Divisions</span>
-                <span class="price-tag">Open Ticket for Quote</span>
-            </div>
-            <div class="price-row">
-                <span class="rank-name" style="color: #FF007F;">Diamond Divisions</span>
-                <span class="price-tag">Open Ticket for Quote</span>
-            </div>
-            <div class="price-row">
-                <span class="rank-name" style="color: #9D00FF;">Crimson to Iridescent</span>
-                <span class="price-tag">Open Ticket for Direct Quote</span>
-            </div>
+            
+            <p style="color: var(--muted-text); font-size: 0.9rem; max-width: 500px; margin: 10px auto 0 auto;">
+                Every division milestone package is open to custom negotiation to fit your specific budget and schedule.
+            </p>
         </div>
 
         <!-- Final CTA Box -->
