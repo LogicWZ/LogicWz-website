@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIC WZ RANKED | Premium Warzone Boosting</title>
+    <style>
+        :root {
+            --bg-color: #0B0B0B;
+            --card-bg: #161616;
+            --accent-color: #00FF66;
+            --text-color: #FFFFFF;
+            --muted-text: #AAAAAA;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+
+        /* Hero Section */
+        header {
+            text-align: center;
+            padding: 60px 0;
+            border-bottom: 1px solid #222;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(0, 255, 102, 0.1);
+            color: var(--accent-color);
+            padding: 6px 12px;
+            font-weight: bold;
+            font-size: 12px;
+            letter-spacing: 2px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(0, 255, 102, 0.2);
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+            font-weight: 900;
+        }
+
+        .hero-sub {
+            font-size: 1.2rem;
+            color: var(--muted-text);
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+
+        /* Features Section */
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin: 60px 0 30px 0;
+            letter-spacing: 1px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid #222;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-color);
+        }
+
+        .card h3 {
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .card p {
+            color: var(--muted-text);
+            font-size: 0.95rem;
+        }
+
+        /* Pricing Specifics */
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #222;
+        }
+
+        .price-row:last-child {
+            border-bottom: none;
+        }
+
+        .price-tag {
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* CTA Section */
+        .cta-box {
+            text-align: center;
+            background: linear-gradient(135deg, #111 0%, #1a1a1a 100%);
+            padding: 50px;
+            border-radius: 12px;
+            margin-top: 60px;
+            border: 1px solid #333;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: #000;
+            padding: 18px 36px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 20px;
+            letter-spacing: 1px;
+            box-shadow: 0 0 20px rgba(0, 255, 102, 0.4);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 30px rgba(0, 255, 102, 0.6);
+        }
+
+        footer {
+            text-align: center;
+            color: #555;
+            font-size: 0.8rem;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #222;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Hero Section -->
+        <header>
+            <div class="badge">HARDWARE SECURED / DMA UNDETECTED</div>
+            <h1>LOGIC WZ RANKED</h1>
+            <p class="hero-sub">Premium, Secure, and Undetectable Warzone Ranked Play Carries & Nuke Contracts. Managed by <strong>Logic</strong>.</p>
+            <a href="YOUR_DISCORD_LINK_HERE" class="btn">JOIN OUR DISCORD TO ORDER</a>
+        </header>
+
+        <!-- Safety Features -->
+        <div class="section-title">The Unfair Advantage</div>
+        <div class="grid">
+            <div class="card">
+                <h3>Physical 2nd-PC DMA</h3>
+                <p>All memory-reading operations are processed entirely on an isolated secondary hardware card (Artix-7 75T FPGA). No injection footprint remains on your gaming system.</p>
+            </div>
+            <div class="card">
+                <h3>Private 1:1 Firmware</h3>
+                <p>Our hardware setups run highly customized private firmware clones designed to bypass advanced IOMMU attestation gates and kernel sweeps seamlessly.</p>
+            </div>
+            <div class="card">
+                <h3>Safe Self-Play Lobbies</h3>
+                <p>Keep your password. Keep your peace of mind. Simply join our party, let us feed you real-time macro radar updates, and win matches naturally.</p>
+            </div>
+        </div>
+
+        <!-- Pricing Tiers -->
+        <div class="section-title">Ranked Play & Nuke Packages</div>
+        <div class="grid">
+            <div class="card" style="grid-column: span 1;">
+                <h3>Ranked Play Divisions</h3>
+                <p style="margin-bottom: 15px;">Prices are per division. Flat-rate skill rating guarantees.</p>
+                <div class="price-row">
+                    <span>Gold to Platinum</span>
+                    <span class="price-tag">$15 USD</span>
+                </div>
+                <div class="price-row">
+                    <span>Platinum to Diamond</span>
+                    <span class="price-tag">$30 USD</span>
+                </div>
+                <div class="price-row">
+                    <span>Diamond to Crimson</span>
+                    <span class="price-tag">$65 USD</span>
+                </div>
+                <div class="price-row">
+                    <span>Crimson to Iridescent</span>
+                    <span class="price-tag">Open Ticket</span>
+                </div>
+            </div>
+
+            <div class="card" style="grid-column: span 1;">
+                <h3>Champion's Quest (Nukes)</h3>
+                <p style="margin-bottom: 15px;">Unlock exclusive operator skins, emblems, and camos in a single run.</p>
+                <div class="price-row">
+                    <span>Warzone Nuke Join-In</span>
+                    <span class="price-tag">$120 USD</span>
+                </div>
+                <div class="price-row" style="border: none; padding-top: 25px;">
+                    <p>• Includes 5-consecutive win streak prep.<br>• Full tactical live radar macro calls.<br>• 100% Success Guarantee (Free reruns if failed).</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Final CTA Box -->
+        <div class="cta-box">
+            <h2>Ready to Claim Top 250?</h2>
+            <p style="color: var(--muted-text); margin-top: 10px;">Stop wasting seasons stuck with random squads. Get your clean, guaranteed carries today.</p>
+            <a href="YOUR_DISCORD_LINK_HERE" class="btn">🟢 LAUNCH DISCORD TICKET 🟢</a>
+        </div>
+
+        <footer>
+            &copy; 2026 LOGIC WZ RANKED. All rights reserved. Managed by Logic. Not affiliated with Activision Publishing Inc.
+        </footer>
+
+    </div>
+
+</body>
+</html>
